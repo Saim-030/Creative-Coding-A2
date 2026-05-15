@@ -51,7 +51,7 @@ function keyPressed() {
   }
   
   // Player B presses B
-  if(key == 'b' || key == 'L') {
+  if(key == 'b' || key == 'B') {
     player2 += 15;
     if(player2 >= 500) winner = "B";
   }
